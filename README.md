@@ -16,7 +16,7 @@ This template provides essential features for development, including:
 - [x] Nuxt3 Application
 - [x] Tailwindcss: A utility-first CSS framework for building custom designs.
 - [x] Setup: Prettier and Esline
-- [ ] HeadlessUI: fully accessible UI components
+- [x] HeadlessUI: fully accessible UI components
 - [ ] Vueuse: Collection of Essential Vue Composition Utilities
 - [ ] Iconify: A collection of open source icons.
 - [ ] Vee Validate: A lightweight form validation library.
