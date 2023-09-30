@@ -1,6 +1,7 @@
 # Nuxt3 Starter Kit
 
 Make building modern web applications with Nuxt3 a breeze.
+
 With this template, you can start building your next Nuxt3 application with confidence, knowing that you have all the essential tools and features at your fingertips.
 
 - Save time and effort: The template is pre-configured with all the necessary dependencies and settings, so you can start building your application right away.
@@ -12,7 +13,7 @@ With this template, you can start building your next Nuxt3 application with conf
 
 This template provides essential features for development, including:
 
-- [ ] Next3 Application
+- [x] Nuxt3 Application
 - [ ] Tailwindcss: A utility-first CSS framework for building custom designs.
 - [ ] HeadlessUI: fully accessible UI components
 - [ ] Vueuse: Collection of Essential Vue Composition Utilities
