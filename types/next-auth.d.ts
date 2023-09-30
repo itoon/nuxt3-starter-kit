@@ -3,6 +3,7 @@ declare module 'next-auth' {
     user?: {
       id?: string | null
       username?: string | null
+      name?: string | null
       email?: string | null
     }
     expires: Date
