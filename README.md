@@ -1,6 +1,6 @@
 # Nuxt3 Starter Kit
 
-Make building modern web applications with Nuxt3 a breeze.
+Make building modern web applications with [Nuxt3](https://nuxt.com/) a breeze.
 
 With this template, you can start building your next Nuxt3 application with confidence, knowing that you have all the essential tools and features at your fingertips.
 
@@ -24,6 +24,12 @@ This template provides essential features for development, including:
 - [ ] Pinia: A state management library
 - [ ] Vitest: A blazing fast unit test framework powered by Vite
 
+## Requirements
+
+- Node.js v18+
+- VS Code editor with recommended extensions
+- Install [Vue devtool](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) in browser extensions
+
 ## Scripts
 
 - `pnpm dev` — Launches the app in development mode on [`http://localhost:3000/`](http://localhost:3000/)
@@ -31,5 +37,9 @@ This template provides essential features for development, including:
 - `pnpm lint` — Validate the code using ESLint
 - `pnpm format` — format the code using Prettier
 - `pnpm start` — start app for production
+
+## Contributors 🧑‍💻
+
+<a href='https://github.com/itoon' target='_blank'><img src='https://avatars.githubusercontent.com/u/4122285?v=4' height='60'/></a>
 
 With this template, you can start building your next Nuxt3 application with confidence, knowing that you have all the essential tools and features at your fingertips.
