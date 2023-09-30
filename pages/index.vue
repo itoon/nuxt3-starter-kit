@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <h1 class="text-2xl">Welcome to Nuxt3 Starter Kit</h1>
+  <BaseHeader />
+  <div class="container mx-auto flex justify-center items-center py-4">
+    <BaseWelcome />
   </div>
+  <BaseFooter />
 </template>
 
 <script setup lang="ts"></script>
