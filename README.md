@@ -19,7 +19,7 @@ This template provides essential features for development, including:
 - [x] HeadlessUI: fully accessible UI components
 - [x] Vueuse: Collection of Essential Vue Composition Utilities
 - [x] nuxt-icon: Support 100,000 open source vector icons via Iconify
-- [ ] Vee Validate: A lightweight form validation library.
+- [x] Vee Validate: A lightweight form validation library.
 - [x] Nuxt-Auth: A Nuxt module for authentication. (Sidebase)
 - [ ] Pinia: A state management library
 - [ ] Vitest: A blazing fast unit test framework powered by Vite
