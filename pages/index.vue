@@ -5,6 +5,9 @@
 </template>
 
 <script setup>
+definePageMeta({
+  auth: false
+})
 useHead({
   title: 'Nuxt3 Start Kit',
   meta: [

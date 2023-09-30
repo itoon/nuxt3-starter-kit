@@ -2,7 +2,7 @@
   <header
     class="sticky top-0 z-20 hidden border-t border-transparent shadow lg:block backdrop-blur-md bg-white/75 shadow-gray-200"
   >
-    <div class="container flex items-center h-16 mx-auto">
+    <div class="container flex items-center justify-between h-16 mx-auto">
       <div id="logo" class="flex items-center">
         <svg
           width="135"
@@ -20,10 +20,18 @@
         </svg>
         <h1 class="font-bold">Nuxt3 Starter Kit</h1>
       </div>
+      <div class="flex items-center gap-4" v-if="status === 'authenticated'">
+        <p class="font-bold">
+          {{ data?.user?.name }}
+        </p>
+        <button class="px-4 py-1 border rounded-md border-primary" @click="signOut">Signout</button>
+      </div>
     </div>
   </header>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { data, status, signOut } = useAuth()
+</script>
 
 <style scoped></style>
