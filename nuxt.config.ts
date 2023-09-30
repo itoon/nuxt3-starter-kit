@@ -6,7 +6,21 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-headlessui',
     '@vueuse/nuxt',
-    'nuxt-icon'
+    'nuxt-icon',
+    [
+      '@vee-validate/nuxt',
+      {
+        // disable or enable auto imports
+        autoImports: true,
+        // Use different names for components
+        componentNames: {
+          Form: 'VeeForm',
+          Field: 'VeeField',
+          FieldArray: 'VeeFieldArray',
+          ErrorMessage: 'VeeErrorMessage'
+        }
+      }
+    ]
   ],
   auth: {
     enableGlobalAppMiddleware: true

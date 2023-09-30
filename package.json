@@ -29,6 +29,8 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "next-auth": "4.21.1"
+    "@vee-validate/nuxt": "^4.11.7",
+    "next-auth": "4.21.1",
+    "yup": "^1.3.2"
   }
 }
