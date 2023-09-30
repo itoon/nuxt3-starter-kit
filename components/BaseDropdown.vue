@@ -7,7 +7,7 @@
         >
           <span class="block truncate">{{ selectedPerson.name }}</span>
           <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
-            <ChevronUpDownIcon class="w-5 h-5 text-gray-400" aria-hidden="true" />
+            <Icon name="mdi:chevron-up-down" color="black" size="20" />
           </span>
         </HeadlessListboxButton>
 
@@ -28,18 +28,15 @@
             >
               <li
                 :class="[
-                  active ? 'bg-amber-100 text-amber-900' : 'text-gray-900',
+                  active ? 'bg-amber-100 text-amber-900 ' : 'text-gray-900',
                   'relative cursor-default select-none py-2 pl-10 pr-4'
                 ]"
               >
                 <span :class="[selected ? 'font-medium' : 'font-normal', 'block truncate']">{{
                   person.name
                 }}</span>
-                <span
-                  v-if="selected"
-                  class="absolute inset-y-0 left-0 flex items-center pl-3 text-amber-600"
-                >
-                  <CheckIcon class="w-5 h-5" aria-hidden="true" />
+                <span v-if="selected" class="absolute inset-y-0 left-0 flex items-center pl-3">
+                  <Icon name="mdi:check" size="20" />
                 </span>
               </li>
             </HeadlessListboxOption>
@@ -51,8 +48,6 @@
 </template>
 
 <script setup>
-import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/20/solid'
-
 const people = [
   { name: 'Wade Cooper' },
   { name: 'Arlene Mccoy' },
