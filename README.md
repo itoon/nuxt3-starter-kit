@@ -42,4 +42,6 @@ This template provides essential features for development, including:
 
 <a href='https://github.com/itoon' target='_blank'><img src='https://avatars.githubusercontent.com/u/4122285?v=4' height='60'/></a>
 
+[You can by me a coffee](https://www.buymeacoffee.com/songklods)
+
 With this template, you can start building your next Nuxt3 application with confidence, knowing that you have all the essential tools and features at your fingertips.
