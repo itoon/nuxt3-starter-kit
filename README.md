@@ -21,7 +21,7 @@ This template provides essential features for development, including:
 - [x] nuxt-icon: Support 100,000 open source vector icons via Iconify
 - [x] Vee Validate: A lightweight form validation library.
 - [x] Nuxt-Auth: A Nuxt module for authentication. (Sidebase)
-- [ ] Pinia: A state management library
+- [x] Pinia: A state management library
 - [ ] Vitest: A blazing fast unit test framework powered by Vite
 
 ## Requirements
