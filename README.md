@@ -24,4 +24,12 @@ This template provides essential features for development, including:
 - [ ] Pinia: A state management library
 - [ ] Vitest: A blazing fast unit test framework powered by Vite
 
+## Scripts
+
+- `pnpm dev` — Launches the app in development mode on [`http://localhost:3000/`](http://localhost:3000/)
+- `pnpm build` — build app for deployment
+- `pnpm lint` — Validate the code using ESLint
+- `pnpm format` — format the code using Prettier
+- `pnpm start` — start app for production
+
 With this template, you can start building your next Nuxt3 application with confidence, knowing that you have all the essential tools and features at your fingertips.
