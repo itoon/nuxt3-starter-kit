@@ -14,7 +14,7 @@ With this template, you can start building your next Nuxt3 application with conf
 This template provides essential features for development, including:
 
 - [x] Nuxt3 Application
-- [ ] Tailwindcss: A utility-first CSS framework for building custom designs.
+- [x] Tailwindcss: A utility-first CSS framework for building custom designs.
 - [ ] HeadlessUI: fully accessible UI components
 - [ ] Vueuse: Collection of Essential Vue Composition Utilities
 - [ ] Iconify: A collection of open source icons.
