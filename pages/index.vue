@@ -1,6 +1,6 @@
 <template>
   <BaseHeader />
-  <div class="container mx-auto flex justify-center items-center py-4">
+  <div class="container flex items-center justify-center py-4 mx-auto">
     <BaseWelcome />
   </div>
   <BaseFooter />

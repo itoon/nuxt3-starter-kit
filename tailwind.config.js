@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "var(--color-primary)",
-      },
-    },
+        primary: 'var(--color-primary)'
+      }
+    }
   },
-  plugins: [],
-};
+  plugins: []
+}
