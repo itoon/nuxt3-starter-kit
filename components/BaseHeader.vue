@@ -1,8 +1,8 @@
 <template>
   <header
-    class="sticky top-0 z-20 hidden border-t border-transparent lg:block backdrop-blur-md bg-white/75 shadow shadow-gray-200"
+    class="sticky top-0 z-20 hidden border-t border-transparent shadow lg:block backdrop-blur-md bg-white/75 shadow-gray-200"
   >
-    <div class="container h-16 flex items-center mx-auto">
+    <div class="container flex items-center h-16 mx-auto">
       <div id="logo" class="flex items-center">
         <svg
           width="135"
@@ -10,7 +10,7 @@
           viewBox="0 0 135 90"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          class="h-4 transition-all cursor-pointer w-auto mr-3"
+          class="w-auto h-4 mr-3 transition-all cursor-pointer"
         >
           <title>Nuxt3 Starter Kit</title>
           <path

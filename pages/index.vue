@@ -1,9 +1,7 @@
 <template>
-  <BaseHeader />
-  <div class="container flex items-center justify-center py-4 mx-auto">
+  <BaseContainer>
     <BaseWelcome />
-  </div>
-  <BaseFooter />
+  </BaseContainer>
 </template>
 
 <script setup lang="ts"></script>
