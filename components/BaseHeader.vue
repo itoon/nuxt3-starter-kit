@@ -24,7 +24,9 @@
         <p class="font-bold">
           {{ data?.user?.name }}
         </p>
-        <button class="px-4 py-1 border rounded-md border-primary" @click="signOut">Signout</button>
+        <button class="px-4 py-1 border rounded-md border-primary" @click="() => signOut">
+          Signout
+        </button>
       </div>
     </div>
   </header>
