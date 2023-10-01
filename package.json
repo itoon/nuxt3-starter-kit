@@ -38,6 +38,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@nuxt/image": "1.0.0-rc.2",
     "@pinia/nuxt": "^0.4.11",
     "@vee-validate/nuxt": "^4.11.7",
     "@vee-validate/yup": "^4.11.7",

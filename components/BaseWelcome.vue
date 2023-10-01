@@ -20,6 +20,9 @@
       <NuxtLink to="https://www.facebook.com/CodeTraveler" target="_blank">
         <Icon name="logos:facebook" size="34" />
       </NuxtLink>
+      <div>
+        <NuxtImg class="h-10 mx-auto" src="/logo.png" format="webp" quality="10" />
+      </div>
     </div>
   </div>
 </template>
@@ -28,7 +31,6 @@
 defineProps({
   message: {
     type: String,
-    required: true,
     default: 'Nuxt3 Starter Kit'
   }
 })

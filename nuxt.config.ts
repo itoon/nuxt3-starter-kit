@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     '@vueuse/nuxt',
     'nuxt-icon',
+    '@nuxt/image',
     '@pinia/nuxt',
     [
       '@vee-validate/nuxt',
@@ -25,5 +26,9 @@ export default defineNuxtConfig({
   ],
   auth: {
     enableGlobalAppMiddleware: true
+  },
+  image: {
+    dir: 'assets/imgs',
+    format: ['webp']
   }
 })
