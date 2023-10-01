@@ -12,7 +12,7 @@
         fill="#00DC82"
       ></path>
     </svg>
-    <h1 class="mt-6 text-6xl font-bold tracking-tight text-center">Nuxt3 Starter Kit</h1>
+    <h1 class="mt-6 text-6xl font-bold tracking-tight text-center">{{ message }}</h1>
     <div class="flex items-center justify-center gap-4">
       <NuxtLink to="https://github.com/itoon/nuxt3-starter-kit" target="_blank">
         <Icon name="uil:github" color="black" size="40" />
@@ -24,6 +24,14 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+defineProps({
+  message: {
+    type: String,
+    required: true,
+    default: 'Nuxt3 Starter Kit'
+  }
+})
+</script>
 
 <style scoped></style>
