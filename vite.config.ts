@@ -1,5 +1,3 @@
-import { fileURLToPath, URL } from 'node:url'
-
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
@@ -9,7 +7,7 @@ export default defineConfig({
     vue({
       template: {
         compilerOptions: {
-          isCustomElement: (tag) => ['Icon', 'NuxtLink'].includes(tag)
+          isCustomElement: (tag) => ['Icon', 'NuxtLink', 'NuxtImg'].includes(tag)
         }
       }
     })
