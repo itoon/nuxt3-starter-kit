@@ -27,7 +27,7 @@ This template provides essential features for development, including:
 
 ## Requirements
 
-- Node.js v18+
+- Node.js v18.18+
 - VS Code editor with recommended extensions
 - Install [Vue devtool](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) in browser extensions
 
