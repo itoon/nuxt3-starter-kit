@@ -26,8 +26,6 @@ This template provides essential features for development, including:
 - [x] Nuxt Image: Optimized Images for your Nuxt Apps
 - [x] Vitest: A blazing fast unit test framework powered by Vite
 
-Note: for vercle we using @nuxt/image-edge instad of @nuxt/image@rc
-
 ## Requirements
 
 - Node.js v18.18+
