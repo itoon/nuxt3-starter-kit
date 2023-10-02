@@ -25,13 +25,10 @@ export default defineNuxtConfig({
     ]
   ],
   auth: {
-    enableGlobalAppMiddleware: true,
-    origin: 'http://localhost:3000'
+    enableGlobalAppMiddleware: true
+    // origin: 'http://localhost:3000'
   },
   image: {
     format: ['webp']
-  },
-  nitro: {
-    preset: 'node-server'
   }
 })
