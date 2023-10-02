@@ -1,3 +1,5 @@
+import vuePlugin from '@vitejs/plugin-vue'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -7,7 +9,7 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     '@vueuse/nuxt',
     'nuxt-icon',
-    '@nuxt/image',
+    '@nuxt/image-edge',
     '@pinia/nuxt',
     [
       '@vee-validate/nuxt',
