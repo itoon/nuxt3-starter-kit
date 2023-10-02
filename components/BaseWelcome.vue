@@ -21,7 +21,7 @@
         <Icon name="logos:facebook" size="34" />
       </NuxtLink>
       <div>
-        <NuxtImg class="h-10 mx-auto" src="/logo.png" format="webp" quality="10" />
+        <NuxtImg class="h-10 mx-auto" src="/imgs/logo.png" format="webp" quality="10" />
       </div>
     </div>
   </div>
