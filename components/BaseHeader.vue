@@ -26,9 +26,9 @@
             <NuxtLink to="/">Home</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/headless">headless</NuxtLink>
+            <NuxtLink to="/headless">Headless</NuxtLink>
           </li>
-          <li><NuxtLink to="/pinia">pinia</NuxtLink></li>
+          <li><NuxtLink to="/pinia">Pinia</NuxtLink></li>
         </ul>
         <p class="font-bold" v-if="status === 'authenticated'">
           {{ data?.user?.name }}
