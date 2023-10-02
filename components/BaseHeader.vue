@@ -24,9 +24,12 @@
         <p class="font-bold">
           {{ data?.user?.name }}
         </p>
-        <button class="px-4 py-1 border rounded-md border-primary" @click="() => signOut">
+        <button class="px-4 py-1 border rounded-md border-primary" @click="() => signOut()">
           Signout
         </button>
+      </div>
+      <div v-else>
+        <NuxtLink to="/login" class="px-4 py-1 border rounded-md border-primary"> Login </NuxtLink>
       </div>
     </div>
   </header>

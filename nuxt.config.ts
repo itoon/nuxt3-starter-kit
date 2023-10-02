@@ -26,7 +26,7 @@ export default defineNuxtConfig({
   ],
   auth: {
     enableGlobalAppMiddleware: true,
-    origin: 'https://nuxt3-starter-kit-songklods-projects.vercel.app'
+    origin: 'http//localhost:3000'
   },
   image: {
     format: ['webp']
