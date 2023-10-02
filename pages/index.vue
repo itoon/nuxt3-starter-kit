@@ -1,6 +1,6 @@
 <template>
   <BaseContainer>
-    <BaseWelcome class="mt-40" />
+    <BaseWelcome class="mt-28" />
   </BaseContainer>
 </template>
 

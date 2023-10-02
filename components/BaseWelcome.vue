@@ -4,7 +4,7 @@
       viewBox="0 0 135 90"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      class="w-auto h-20 mr-3 transition-all cursor-pointer"
+      class="w-auto h-20 transition-all cursor-pointer"
     >
       <title>Nuxt3 Starter Kit</title>
       <path
@@ -12,17 +12,17 @@
         fill="#00DC82"
       ></path>
     </svg>
-    <h1 class="mt-6 text-6xl font-bold tracking-tight text-center">{{ message }}</h1>
-    <div class="flex items-center justify-center gap-4">
+    <h1 class="text-6xl font-bold tracking-tight text-center">{{ message }}</h1>
+    <div>
+      <NuxtImg class="h-40 mx-auto" src="/imgs/package.jpg" format="webp" quality="80" />
+    </div>
+    <div class="flex items-center justify-center gap-4 -mt-4">
       <NuxtLink to="https://github.com/itoon/nuxt3-starter-kit" target="_blank">
-        <Icon name="uil:github" color="black" size="40" />
+        <Icon name="uil:github" color="black" size="30" />
       </NuxtLink>
       <NuxtLink to="https://www.facebook.com/CodeTraveler" target="_blank">
-        <Icon name="logos:facebook" size="34" />
+        <Icon name="logos:facebook" size="26" />
       </NuxtLink>
-      <div>
-        <NuxtImg class="h-10 mx-auto" src="/imgs/logo.png" format="webp" quality="10" />
-      </div>
     </div>
   </div>
 </template>
