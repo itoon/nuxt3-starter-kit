@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     ]
   ],
   auth: {
-    enableGlobalAppMiddleware: true
+    enableGlobalAppMiddleware: true,
     origin: 'https://nuxt3-starter-kit-songklods-projects.vercel.app'
   },
   image: {
