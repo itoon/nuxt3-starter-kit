@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     '@vueuse/nuxt',
     'nuxt-icon',
-    '@nuxt/image-edge',
+    '@nuxt/image',
     '@pinia/nuxt',
     [
       '@vee-validate/nuxt',
