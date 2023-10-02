@@ -27,10 +27,10 @@ export default defineNuxtConfig({
     ]
   ],
   auth: {
-    enableGlobalAppMiddleware: true
+    enableGlobalAppMiddleware: true,
+    origin: 'http://localhost:3000/'
   },
   image: {
-    dir: 'assets/imgs',
     format: ['webp']
   }
 })

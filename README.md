@@ -1,5 +1,6 @@
 # Nuxt3 Starter Kit
 
+![Nuxt3 Starter Kit Package](./public/imgs/package.jpg)
 Make building modern web applications with [Nuxt3](https://nuxt.com/) a breeze.
 
 With this template, you can start building your next Nuxt3 application with confidence, knowing that you have all the essential tools and features at your fingertips.
@@ -29,7 +30,7 @@ Note: for vercle we using @nuxt/image-edge instad of @nuxt/image@rc
 
 ## Requirements
 
-- Node.js v18+
+- Node.js v18.18+
 - VS Code editor with recommended extensions
 - Install [Vue devtool](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) in browser extensions
 

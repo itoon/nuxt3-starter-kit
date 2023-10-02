@@ -20,13 +20,29 @@
         </svg>
         <h1 class="font-bold">Nuxt3 Starter Kit</h1>
       </div>
-      <div class="flex items-center gap-4" v-if="status === 'authenticated'">
-        <p class="font-bold">
+      <div class="flex items-center gap-4">
+        <ul class="flex items-center gap-4">
+          <li>
+            <NuxtLink to="/">Home</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/headless">Headless</NuxtLink>
+          </li>
+          <li><NuxtLink to="/pinia">Pinia</NuxtLink></li>
+        </ul>
+        <p class="font-bold" v-if="status === 'authenticated'">
           {{ data?.user?.name }}
         </p>
-        <button class="px-4 py-1 border rounded-md border-primary" @click="() => signOut">
+        <button
+          class="px-4 py-1 border rounded-md border-primary"
+          @click="() => signOut()"
+          v-if="status === 'authenticated'"
+        >
           Signout
         </button>
+        <NuxtLink to="/login" class="px-4 py-1 border rounded-md border-primary" v-else>
+          Login
+        </NuxtLink>
       </div>
     </div>
   </header>
