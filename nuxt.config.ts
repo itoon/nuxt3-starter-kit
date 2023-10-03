@@ -26,7 +26,7 @@ export default defineNuxtConfig({
   ],
   auth: {
     enableGlobalAppMiddleware: true,
-    origin: 'https://nuxt3-starter-kit-eight.vercel.app/'
+    origin: process.env.AUTH_NO_ORIGIN
   },
   image: {
     format: ['webp']
