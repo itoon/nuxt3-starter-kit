@@ -14,7 +14,12 @@
     </svg>
     <h1 class="text-6xl font-bold tracking-tight text-center">{{ message }}</h1>
     <div>
-      <NuxtImg class="h-40 mx-auto" src="/imgs/package.jpg" format="webp" quality="80" />
+      <NuxtImg
+        class="h-40 w-full object-contain mx-auto"
+        src="/imgs/package.jpg"
+        format="webp"
+        quality="80"
+      />
     </div>
     <div class="flex items-center justify-center gap-4 -mt-4">
       <NuxtLink to="https://github.com/itoon/nuxt3-starter-kit" target="_blank">
